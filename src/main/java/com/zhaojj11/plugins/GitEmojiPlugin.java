@@ -1,8 +1,7 @@
-package com.zhaojj11.plugin;
+package com.zhaojj11.plugins;
 
 import org.apache.maven.model.Build;
 import org.apache.maven.plugin.AbstractMojo;
-import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
