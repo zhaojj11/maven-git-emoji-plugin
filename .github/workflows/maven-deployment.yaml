@@ -2,6 +2,8 @@
 name: Maven Central Repo Deployment
 # 触发脚本的事件  这里为发布release之后触发
 on:
+  # 支持手动触发构建
+  workflow_dispatch:
   release:
     types: [released]
 # 定义一个发行任务
@@ -20,7 +22,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-          server-id: sonatype-nexus-staging
+          server-id: ossrh
           server-username: ${{ secrets.OSSRH_USER }}
           server-password: ${{ secrets.OSSRH_PASSWORD }}
           gpg-passphrase:  ${{ secrets.GPG_PASSWORD }}
