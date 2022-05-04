@@ -1,6 +1,12 @@
 package com.zhaojj11.plugins.constant;
 
-public class Constant {
+/**
+ * commit类型常量
+ *
+ * @author zhaojj11
+ * @since 1.0.0
+ */
+public class CommitTypeConstant {
     // commit type
     public static final String FEAT = "feat";
     public static final String FIX = "fix";

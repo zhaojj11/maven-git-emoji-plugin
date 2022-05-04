@@ -1,5 +1,11 @@
 package com.zhaojj11.plugins.constant;
 
+/**
+ * emoji类型常量
+ *
+ * @author zhaojj11
+ * @since 1.0.0
+ */
 public class EmojiTypeConstant {
     public static final String ART = "art";
     public static final String ZAP = "zap";

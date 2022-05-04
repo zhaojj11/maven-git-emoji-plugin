@@ -2,9 +2,14 @@ package com.zhaojj11.plugins.enums;
 
 import com.zhaojj11.plugins.constant.EmojiTypeConstant;
 
+/**
+ * emoji 类型枚举
+ *
+ * @author zhaojj11
+ * @since 1.0.0
+ */
 public enum EmojiEnum {
-
-     ART(EmojiTypeConstant.ART, "Improve structure / format of the code."),
+    ART(EmojiTypeConstant.ART, "Improve structure / format of the code."),
     ZAP(EmojiTypeConstant.FIRE, "Improve performance."),
     FIRE(EmojiTypeConstant.FIRE, "Remove code or files."),
     BUG(EmojiTypeConstant.BUG, "Fix a bug."),
@@ -73,8 +78,7 @@ public enum EmojiEnum {
     NECKTIE(EmojiTypeConstant.NECKTIE, "Add or update business logic"),
     STETHOSCOPE(EmojiTypeConstant.STETHOSCOPE, "Add or update healthcheck."),
     BRICKS(EmojiTypeConstant.BRICKS, "Infrastructure related changes."),
-    TECHNOLOGIST(EmojiTypeConstant.TECHNOLOGIST, "Improve developer experience")
-    ;
+    TECHNOLOGIST(EmojiTypeConstant.TECHNOLOGIST, "Improve developer experience");
 
     private final String emoji;
     private final String description;
