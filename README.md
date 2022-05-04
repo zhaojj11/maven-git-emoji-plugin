@@ -1,1 +1,3 @@
 # maven-git-emoji-plugin
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/zhaojj11/maven-git-emoji-plugin/Maven%20Package) ![GitHub](https://img.shields.io/github/license/zhaojj11/maven-git-emoji-plugin) ![GitHub issues](https://img.shields.io/github/issues/zhaojj11/maven-git-emoji-plugin) ![Maven_version](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fs01.oss.sonatype.org%2Fcontent%2Frepositories%2Fsnapshots%2Fcom%2Fzhaojj11%2Fplugins%2Fgit-emoji-plugin%2Fmaven-metadata.xml) ![GitHub last commit](https://img.shields.io/github/last-commit/zhaojj11/maven-git-emoji-plugin)
