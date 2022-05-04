@@ -1,6 +1,5 @@
 package com.zhaojj11.plugins;
 
-import com.zhaojj11.plugins.util.GitUtil;
 import com.zhaojj11.plugins.util.UsageUtil;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.descriptor.PluginDescriptor;
@@ -19,7 +18,7 @@ import java.io.File;
  * @since 1.0.0
  */
 @Mojo(name = "help", defaultPhase = LifecyclePhase.PREPARE_PACKAGE, requiresDependencyResolution = ResolutionScope.NONE)
-public class GitEmojiHelpPlugin extends AbstractMojo {
+public class GitEmojiHelpMojo extends AbstractMojo {
     @Parameter(defaultValue = "${project}", readonly = true)
     private MavenProject project;
 
