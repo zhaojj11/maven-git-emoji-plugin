@@ -32,5 +32,7 @@ public class PreCommitMojo extends AbstractMojo {
     @Override
     public void execute() {
         UsageUtil.logHelpUsage(getLog(), project, pluginDescriptor, basedir);
+
+        getLog().info("pre-commit");
     }
 }

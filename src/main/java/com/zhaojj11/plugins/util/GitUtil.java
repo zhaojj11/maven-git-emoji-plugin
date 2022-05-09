@@ -63,7 +63,7 @@ public class GitUtil {
 
         try (FileOutputStream fos = new FileOutputStream(commitMsgHookPath, true)) {
             //true表示在文件末尾追加
-            fos.write("test".getBytes(StandardCharsets.UTF_8));
+            fos.write(hookTypeEnum.getCommand().getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             e.printStackTrace();
         }
